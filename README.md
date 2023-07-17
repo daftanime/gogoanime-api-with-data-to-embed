@@ -14,6 +14,7 @@ Gogoanime API developed by https://www.2embed.cc/ and comes with complete data f
 <h2>API USAGE EXAMPLE</h2>
 <code>
 &#60;?php
+	// if you want automatic anime updates then keep using the below url otherwise download .json file on your server.
 	$anivids = 'https://raw.githubusercontent.com/sizzlingkenny/gogoanime-api-with-data-to-embed/main/data.json';
 	$json = file_get_contents($anivids);		
 	$data = json_decode($json, true);
